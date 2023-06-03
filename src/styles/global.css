@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #191919;
+  color: #f2f2f2;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+.input-wrapper {
+  position: relative;
+  transition: height 0.3s ease;
+}
+
+.input-field {
+  width: 100%;
+  height: 30px;
+  transition: width 0.3s ease;
+}
+
+.expanded {
+  height: 100px; /* Adjust this value as needed */
+}
+
+.expanded .input-field {
+  width: 100%;
+}
